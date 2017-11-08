@@ -13,6 +13,17 @@ ORIGINAL WORK: https://github.com/BusinessBecause/network-site/tree/hotfix/task-
 			C:\toucantech.dev\network-site\addons\default\modules\news\views\view.php
 
 				CHANGED CODE: 
+				
+					FROM: 
+					
+						<h1 class="charcoal_black title-page font-small-device">
+						
+					TO: 
+					
+						<h1 class="charcoal_black title-page font-small-device" style="padding: 0px;">
+			
+			
+				CHANGED CODE 2: 
 					
 					FROM: 
 				
@@ -29,7 +40,8 @@ ORIGINAL WORK: https://github.com/BusinessBecause/network-site/tree/hotfix/task-
 				ADDED CODE: 
 				
 					p.news_image_intro {
-						margin: 0px 0px 10px 0px;
-						font-size: 14px;
+						margin: 0px 0px 15px 0px;
+						padding: 0px;
+						font-size: 12px;
 						text-align: justify;
 					}
